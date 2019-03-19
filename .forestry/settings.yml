@@ -4,6 +4,9 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _data/nav.yml
+  label: Navigation
 - type: directory
   path: pages
   label: pages
