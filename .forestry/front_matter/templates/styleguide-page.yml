@@ -1,0 +1,13 @@
+---
+label: styleguide-page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+  default: Skriv en titel
+- type: text
+  name: lead_text
+  label: Lead text
