@@ -8,7 +8,7 @@ sections:
   path: ''
   label: pages
   create: all
-  match: "/pages/**/*"
+  match: pages/**/*
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

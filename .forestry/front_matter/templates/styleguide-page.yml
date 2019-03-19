@@ -11,8 +11,3 @@ fields:
 - type: text
   name: lead_text
   label: Lead text
-pages:
-- design-frontpage.md
-- testsection/knapper.md
-- frontpage.md
-- index.md
