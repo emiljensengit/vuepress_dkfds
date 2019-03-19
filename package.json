@@ -1,0 +1,23 @@
+{
+  "name": "vuepress_dkfds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiljensengit/vuepress_dkfds.git"
+  },
+  "dependencies": {
+    "vuepress": "^0.14.10"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
+  },
+  "devDependencies": {
+    "webpack-dev-middleware": "^3.6.0"
+  }
+}
