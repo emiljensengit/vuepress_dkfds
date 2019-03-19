@@ -12,5 +12,6 @@ fields:
   name: lead_text
   label: Lead text
 pages:
+- index.html
 - frontpage.md
 - testsection/knapper.md
