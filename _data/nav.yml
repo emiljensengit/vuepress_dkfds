@@ -24,8 +24,8 @@ mobile:
 
 #Left menu for design-category
 Design_category:
-  - alternative_text: Overblik
-    href: /design/
+  - href: /design/
+    alternative_text: Overblik
 #  - href: /design/accessibility/
   - href: /design/farver/
   - href: /design/typography/
@@ -39,8 +39,8 @@ Design_category:
     
 #Left menu for komponent-category
 Komponenter_category:
-  - alternative_text: Overblik
-    href: /komponenter/
+  - href: /komponenter/
+    alternative_text: Overblik
   - href: /komponenter/accordions/
   - href: /komponenter/badges/
   - href: /komponenter/beskeder/
@@ -63,20 +63,20 @@ Komponenter_category:
 
 #Left menu for udvidelser-category
 Udvidelser_category:
-  - alternative_text: Overblik
-    href: /udvidelser/ 
+  - href: /udvidelser/ 
+    alternative_text: Overblik
   - href: /udvidelser/datatables/
   - href: /udvidelser/selectwoo-multiselect/
   - href: /udvidelser/pikaday/
 
 Eksempler_category:
-  - alternative_text: Overblik
-    href: /eksempler/
+  - href: /eksempler/
+    alternative_text: Overblik
   - href: /eksempler/sideeksempler/
 
 Krav_category:
-  - alternative_text: Overblik
-    href: /krav/
+  - href: /krav/
+    alternative_text: Overblik
 #  - href: /krav/krav_til_design/
 #  - href: /krav/krav_til_integration/
 #  - href: /krav/faellesoffentligekrav/
@@ -94,8 +94,8 @@ Krav_category:
 #  - href: /getting-started/loesninger/
 
 Om_designsystemet_category:
-  - alternative_text: Overblik
-    href: /omdesignsystemet/
+  - href: /omdesignsystemet/
+    alternative_text: Overblik
   - href: /omdesignsystemet/tilpopl/
   - href: /omdesignsystemet/tiludviklere/
   - href: /omdesignsystemet/anbefalinger-vaerktoejer/
