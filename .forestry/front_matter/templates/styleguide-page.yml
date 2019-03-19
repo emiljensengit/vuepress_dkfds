@@ -12,6 +12,7 @@ fields:
   name: lead_text
   label: Lead text
 pages:
+- "./welcome-to-my-blog.md"
 - index.md
 - frontpage.md
 - testsection/knapper.md
