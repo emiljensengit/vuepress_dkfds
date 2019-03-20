@@ -1,5 +1,5 @@
 <template>
-  <div
+  <!--<div
     class="theme-container"
     :class="pageClasses"
     @touchstart="onTouchStart"
@@ -53,7 +53,43 @@
     </Page>
 
     <SWUpdatePopup :updateEvent="swUpdateEvent"/>
+  </div>-->
+  
+<div class="container page-container">
+  <div class="row">
+
+    <!--<aside class="col-12 col-lg-3 sidebar-col">
+      <nav class="sidenav d-none d-lg-block mb-4 mb-md-0" id="docs-sidenav">
+        {% assign sidenavFromNavData = site.data.nav[page.category] %}
+        {% if sidenavFromNavData %}
+        <ul class="sidenav-list">
+          {% include nav/list.html 
+            links=sidenavFromNavData               
+            use_alt_text=true
+          %}
+        </ul>
+        {% endif %}
+      </nav>
+    </aside>-->
+    <Sidebar
+      :items="sidebarItems"
+      @toggle-sidebar="toggleSidebar"
+    >
+      <slot
+        name="sidebar-top"
+        slot="top"
+      />
+      <slot
+        name="sidebar-bottom"
+        slot="bottom"
+      />
+    </Sidebar>
+
+    <main class="col-12 col-lg-9">
+        <Page></Page>
+    </main>
   </div>
+</div>
 </template>
 
 <script>
@@ -66,7 +102,7 @@ import Sidebar from './Sidebar.vue'
 import SWUpdatePopup from './SWUpdatePopup.vue'
 import { resolveSidebarItems } from './util'
 
-import './assets/style/styleguide.css';
+import './assets/style/styleguide.css'; //import DKFDS css
 
 export default {
   components: { Home, Page, Sidebar, Navbar, SWUpdatePopup },
@@ -181,5 +217,3 @@ export default {
 }
 </script>
 
-<style src="prismjs/themes/prism-tomorrow.css"></style>
-<style src="./styles/theme.styl" lang="stylus"></style>

@@ -60,6 +60,7 @@
     {% endif %}-->
     <p class="h6 m-0">
         {{ $page.frontmatter.subcategory }}
+        HOME
     </p>
     <h1 class="mt-0">{{ $page.frontmatter.title }}</h1> <!-- id="{{ page.title | slugify }}" -->
     <!--{% if page.lead != null and page.lead != "" %}

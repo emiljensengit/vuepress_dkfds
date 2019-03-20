@@ -12,6 +12,7 @@
     {% endif %}-->
     <p class="h6 m-0">
       {{ $page.frontmatter.subcategory }}
+      PAGE
     </p>
     <h1 class="mt-0">{{ $page.frontmatter.title }}</h1> <!-- id="{{ page.title | slugify }}"-->
     <p class="font-lead" v-if="$page.frontmatter.lead">{{ $page.frontmatter.lead }}</p>
