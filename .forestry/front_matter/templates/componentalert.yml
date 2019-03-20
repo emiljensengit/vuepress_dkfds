@@ -1,0 +1,34 @@
+---
+label: ComponentAlert
+hide_body: false
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: headling
+  label: Headling
+  type: text
+  hidden: false
+  default: ''
+- name: text
+  label: Text
+  type: text
+  hidden: false
+  default: ''
+- name: classes
+  label: Classes
+  type: text
+  hidden: false
+  default: ''
+- name: role
+  label: Role
+  type: text
+  hidden: false
+  default: ''
+- name: aria
+  label: Aria
+  type: text
+  hidden: false
+  default: ''
