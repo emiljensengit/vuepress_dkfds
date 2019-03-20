@@ -15,4 +15,5 @@ fields:
   name: lead
   label: Lead
 pages:
+- pages/knapper.md
 - pages/pages-subpage.md
