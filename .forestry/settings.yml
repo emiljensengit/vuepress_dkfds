@@ -4,6 +4,11 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: components
+  label: components
+  create: all
+  match: components/**/*
 - type: document
   path: _data/nav.yml
   label: Navigation
