@@ -6,17 +6,17 @@ fields:
   label: Type
   type: text
   hidden: false
-  default: ''
+  default: AlertType
 - name: headling
   label: Headling
   type: text
   hidden: false
-  default: ''
+  default: Alert headling default
 - name: text
   label: Text
   type: text
   hidden: false
-  default: ''
+  default: Alert tekst default
 - name: classes
   label: Classes
   type: text
@@ -26,9 +26,9 @@ fields:
   label: Role
   type: text
   hidden: false
-  default: ''
+  default: alert role default
 - name: aria
   label: Aria
   type: text
   hidden: false
-  default: ''
+  default: alert aria default
