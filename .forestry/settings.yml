@@ -8,7 +8,7 @@ sections:
   path: components
   label: components
   create: all
-  match: components/**/*
+  match: "**/*"
 - type: document
   path: _data/nav.yml
   label: Navigation
